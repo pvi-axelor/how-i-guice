@@ -16,7 +16,7 @@ public class SongLyricsModule extends AbstractModule {
 		}
 
 		bind(String.class).toInstance("\nTell me why...\nAin't nothing but heart-ache!");
-		bind(String.class).annotatedWith(Names.named("RickRoll")).toInstance(
+		bindConstant().annotatedWith(Names.named("RickRoll")).to(
 				"\nNever gonna give you up!\nNever gonna let you down!\nNever gonna run around and desert you!");
 
 	}
