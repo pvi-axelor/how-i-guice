@@ -16,16 +16,19 @@ Each folder can be run with `gradle run`, or by importing it in eclipse, as the 
     * @Inject
     * @Named
     * @Singleton
-    * @BuildAnnotation
+    * @BuildAnnotation (deprecated)
+    * @Qualifier (replacement for @BuildAnnotation)
     * @Target
     * @Retention
     * @ImplementedBy
     * @Provides
 
 * Injection
-    * Field injection
+    * Field injection (shouldn't be used!)
     * Method injection
     * Constructor injection
+    * Automatic injection
+    * Optional binding
 
 * Binding
     * Linked binding
@@ -34,11 +37,11 @@ Each folder can be run with `gradle run`, or by importing it in eclipse, as the 
     * Named/Annotated binding
     * Provider binding
 
+
 ----
 
 #### Yet to try...
 
-* Optional binding
 * MultiBind
 * On-Demand Injection
 * JPA with guice
