@@ -21,13 +21,13 @@ public class Main {
     	
 //    	Method Binding and Field binding
     	
-//    	Injector injector = Guice.createInjector(new StudentDetailsModule());
-//    	StudentDetails studentDetails = injector.getInstance(StudentDetails.class);
-//    	
-//    	StudentDetails studentDetails2 = injector.getInstance(StudentDetails.class);
-//    	
-//    	studentDetails.print();
-//    	studentDetails2.print();
+    	Injector injector = Guice.createInjector(new StudentDetailsModule());
+    	StudentDetails studentDetails = injector.getInstance(StudentDetails.class);
+    	
+    	StudentDetails studentDetails2 = injector.getInstance(StudentDetails.class);
+    	
+    	studentDetails.print();
+    	studentDetails2.print();
     	
     	
 //    	Singleton
