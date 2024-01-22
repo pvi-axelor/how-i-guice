@@ -2,8 +2,6 @@ package learn.guc.impl;
 
 import com.google.inject.Inject;
 
-import learn.guc.service.RandomNumber;
-
 public class WorkPlace {
 
 	public int staff;
