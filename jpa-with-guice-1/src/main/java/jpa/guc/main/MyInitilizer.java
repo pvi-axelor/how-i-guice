@@ -15,7 +15,7 @@ public class MyInitilizer {
 	
 	@Inject
 	@Override
-	public void finalize () {
+	public void finalize () {	 // I suspect it is AutoClosable, but better safe than sorry
 		this.service.stop();
 	}
 }
